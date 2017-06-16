@@ -1,0 +1,13 @@
+[package]
+name = "vst-cocoa-gui"
+version = "0.1.0"
+authors = ["Alex Zywicki <alexander.zywicki@gmail.com>"]
+
+[dependencies]
+vst2 = "*"
+libc="*"
+objc="*"
+objc-foundation="*"
+[lib]
+name="vstcocoa"
+crate-dylib=["cdylib"]
