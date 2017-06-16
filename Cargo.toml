@@ -8,6 +8,7 @@ vst2 = "*"
 libc="*"
 objc="*"
 objc-foundation="*"
+cocoa="*"
 [lib]
 name="vstcocoa"
 crate-dylib=["cdylib"]

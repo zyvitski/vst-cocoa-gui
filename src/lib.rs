@@ -3,6 +3,7 @@ extern crate vst2;
 extern crate libc;
 extern crate objc;
 extern crate objc_foundation;
+extern crate cocoa;
 
 mod editor;
 mod view;
